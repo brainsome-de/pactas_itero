@@ -1,0 +1,106 @@
+[{
+    "id": "55e6fe8f1d8dd20db09e3c6d",
+    "plan_id": "55e6fd901d8dd20db09e3c1e",
+    "allow_self_service": true,
+    "allow_without_payment_data": false,
+    "contract_period": {
+        "unit": "Month",
+        "quantity": 12
+    },
+    "later_contract_period": {
+        "unit": "Month",
+        "quantity": 12
+    },
+    "cancellation_period": {
+        "unit": "Day",
+        "quantity": 1
+    },
+    "later_cancellation_period": {
+        "unit": "Day",
+        "quantity": 1
+    },
+    "billing_period": {
+        "unit": "Month",
+        "quantity": 1
+    },
+    "fee_period": {
+        "unit": "Month",
+        "quantity": 12
+    },
+    "payment_period_mode": "PrePaid",
+    "quota": [],
+    "recurring_fee": 24,
+    "setup_fee": 0,
+    "internal_name": "Abo 12 Monate",
+    "description": {}
+}, {
+    "id": "55e6fe6f1d8dd20db09e3c67",
+    "plan_id": "55e6fd901d8dd20db09e3c1e",
+    "allow_self_service": true,
+    "allow_without_payment_data": false,
+    "contract_period": {
+        "unit": "Month",
+        "quantity": 6
+    },
+    "later_contract_period": {
+        "unit": "Month",
+        "quantity": 6
+    },
+    "cancellation_period": {
+        "unit": "Day",
+        "quantity": 1
+    },
+    "later_cancellation_period": {
+        "unit": "Day",
+        "quantity": 1
+    },
+    "billing_period": {
+        "unit": "Month",
+        "quantity": 1
+    },
+    "fee_period": {
+        "unit": "Month",
+        "quantity": 6
+    },
+    "payment_period_mode": "PrePaid",
+    "quota": [],
+    "recurring_fee": 14,
+    "setup_fee": 0,
+    "internal_name": "Abo 6 Monate",
+    "description": {}
+}, {
+    "id": "55e6fe301d8dd20db09e3c50",
+    "plan_id": "55e6fd901d8dd20db09e3c1e",
+    "allow_self_service": true,
+    "allow_without_payment_data": false,
+    "contract_period": {
+        "unit": "Month",
+        "quantity": 3
+    },
+    "later_contract_period": {
+        "unit": "Month",
+        "quantity": 3
+    },
+    "cancellation_period": {
+        "unit": "Day",
+        "quantity": 1
+    },
+    "later_cancellation_period": {
+        "unit": "Day",
+        "quantity": 1
+    },
+    "billing_period": {
+        "unit": "Month",
+        "quantity": 1
+    },
+    "fee_period": {
+        "unit": "Month",
+        "quantity": 3
+    },
+    "payment_period_mode": "PrePaid",
+    "quota": [],
+    "recurring_fee": 8,
+    "setup_fee": 0,
+    "internal_name": "Abo 3 Monate",
+    "description": {}
+}]
