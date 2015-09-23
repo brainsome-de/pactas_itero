@@ -74,4 +74,19 @@ describe PactasItero::Api::Customers do
       expect(request).to have_been_made
     end
   end
+
+  describe ".customer" do
+    it "requests the correct resource" do
+      client = PactasItero::Client.new(bearer_token: 'bt')
+      request = stub_get('/api/v1/customers/customer-id').
+      to_return(
+        body: fixture('customer.json'),
+        headers: { content_type: 'application/json; charset=utf-8'}
+      )
+
+      client.customer('customer-id')
+
+      expect(request).to have_been_made
+    end
+  end
 end
